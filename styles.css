@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --margin:35px;
+    --border : 2px solid aqua;
+}
+body{
+
+    background-color:black;
+     color:white;
+}
+
+          /*navigation bar*/
+
+a{
+    text-decoration:none;
+    color: whitesmoke;
+    padding-right:5px;
+}
+a:hover{
+    color:aqua;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin:var(--margin);
+    font-size:20px;
+ }
+
+
+          /* about */
+.about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding:20px;
+}
+.about h2{
+    display:inherit;
+    align-items: center;
+    font-size:50px;
+}
+#about{
+    line-height:1.5;
+    padding:30px;
+    font-size: 25px;
+}
+.about_box{
+    border-left : var(--border);
+   padding: 40px; 
+         
+}
+
+ .text {
+     
+    background: linear-gradient(to right,aqua 0%, #ff99cc 50%,rgba(214, 224, 8, 0.779));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 100% 0; }
+    100% { background-position: 0 0; }
+}
+
+ 
+img{
+   
+   height:50vh;
+   border-radius:20px;
+   border:4px sold #ccc;
+   overflow:hidden;
+   /* transition: transform 0.3s ease-in-out; */
+ }
+ img:hover{
+    /* transform:scale(1.1); 
+     */
+     transition: transform 1s ease-out;
+     will-change: transform;
+     transform: scale(1.03) translateZ(0);
+ }
+
+
+          /* skills  */
+
+
+.skills{
+    margin:var(--margin);
+    font-size: 1.5rem;
+}
+ul{
+    list-style-type: none;
+}
+ul li::before {
+    content: "\2022"; 
+    color:aqua; 
+    margin-left: 1em;
+  }
+  .skills_box{
+    border-right : var(--border);
+    margin: 50px; 
+         
+}
+.education{
+    margin:var(--margin);
+    line-height: 1.5rem;
+}
+h2{
+    font-family:cursive;
+}
+.education_box{
+    border-left : var(--border);
+   padding : 40px;  
+}
+.projects_box{
+    border-right : var(--border);
+    margin: 40px;
+}
+
+/* contant */
+.social-icons {
+    display: flex;
+    justify-content: space-evenly; 
+  }
+
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #ffff; 
+  }
+  
+  .social-icons i {
+    font-size: 30px;
+  }
+  .contant_box{
+    border-top: 1px solid;
+    padding:30px;
+    width:80%;
+    margin:70px;
+    
+  }
+.social-icons a :hover{
+    color:aqua;
+    font-size:35px;
+  }
