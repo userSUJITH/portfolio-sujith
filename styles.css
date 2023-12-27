@@ -92,13 +92,13 @@ img{
 
 .skills{
     margin:var(--margin);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 ul{
     list-style-type: none;
 }
 ul li::before {
-    content: "\2022"; 
+    content:"\003C" " \002F" "\003E";
     color:aqua; 
     margin-left: 1em;
   }
