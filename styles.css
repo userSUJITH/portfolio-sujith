@@ -6,6 +6,7 @@
     --margin:35px;
     --border : 2px solid aqua;
 }
+
 body{
 
     background-color:black;
@@ -19,8 +20,9 @@ a{
     color: whitesmoke;
     padding-right:5px;
 }
-a:hover{
+.nav a:hover{
     color:aqua;
+    border-bottom:2px solid;
 }
 .navbar{
     display:flex;
@@ -132,7 +134,7 @@ h2{
   
   .social-icons a {
     text-decoration: none;
-    color: #ffff; 
+    color:#ffff; 
   }
   
   .social-icons i {
@@ -141,11 +143,11 @@ h2{
   .contant_box{
     border-top: 1px solid;
     padding:30px;
-    width:80%;
+    width:80;
     margin:70px;
     
   }
-.social-icons a :hover{
+.social-icons i:hover{
     color:aqua;
     font-size:35px;
   }
