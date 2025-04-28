@@ -125,6 +125,11 @@ h2{
     margin: 40px;
 }
 
+.projects_box a{
+    color:aquamarine;
+    font-size:1.5rem;
+}
+
 /* contant */
 .social-icons {
     display: flex;
