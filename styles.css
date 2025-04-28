@@ -129,11 +129,18 @@ h2{
     color:aquamarine;
     font-size:1.5rem;
 }
-.projects_box video desc{
-    line-height: 1.9rem;
-   display:flex;
-   justify-content: center;
-}
+.ecommers {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content:space-around;
+ }
+ 
+ .ecommers video {
+    width: 50%;
+   
+ }
+ 
 
 /* contant */
 .social-icons {
